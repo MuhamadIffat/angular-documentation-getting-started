@@ -1,5 +1,6 @@
 //install expressjs server
 const express = require('express');
+const app = express();
 const path = require('path');
 
 //serve only the static file form the dist directory
